@@ -1,0 +1,43 @@
+.background-image-wrapper {
+  width: 35%;
+  height: 100%;
+  position: relative;
+}
+
+.background-image-wrapper-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.background-image-wrapper-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  /* display: block;
+     */
+}
+
+.background-image-wrappert--content {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.background-image-wrapper--title {
+  color: #f7f1f1;
+  font-size: 2.7rem;
+  margin: 0;
+}
+
+.background-image-wrapper--desc {
+  color: aliceblue;
+  font-size: 1.3rem;
+}

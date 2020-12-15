@@ -1,0 +1,123 @@
+button {
+  cursor: pointer;
+}
+
+.btn-width-fixed {
+  min-width: 10.3rem !important;
+  max-width: 10.3rem !important;
+  min-height: 3rem !important;
+  max-height: 3rem !important;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.btn-small {
+  padding: 0.9rem 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.btn-s {
+  /* width: 4.5rem; */
+  padding: 0.9rem 1rem;
+  /* border-radius: 3px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.btn-extra-small {
+  height: 2.5rem;
+  width: 10rem;
+  padding: 0.7rem 0;
+  /* border-radius: 3px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #fff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.371);
+  border-radius: 100px;
+}
+
+.btn-green {
+  border: 2px solid greenyellow;
+  background-color: green;
+}
+
+.btn-light-green {
+  /* border: 2px solid greenyellow; */
+  background-color: green;
+  color: #fff;
+}
+
+.btn-tomato {
+  background-color: tomato;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.btn-yellow {
+  background-color: gold;
+  color: #222;
+  // font-weight: bold;
+  border: 2px solid rgb(255, 217, 47);
+}
+
+.btn-gray {
+  background-color: rgb(99, 99, 99);
+}
+
+.btn-white {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  color: #000;
+}
+
+.btn-dark-gray {
+  background-color: #222;
+  color: #fff;
+}
+
+.btn-disable {
+  background-color: rgb(196, 196, 196);
+  color: rgb(255, 255, 255);
+}
+
+.btn-inactive {
+  color: #000;
+  background-color: #e7e7e7;
+
+  border: 2px solid rgb(214, 214, 214);
+}
+
+.btn-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-font-m {
+  font-size: 1.2rem !important;
+}
+
+.btn-shadow {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
+}
+
+.btn-shadow:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}

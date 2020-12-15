@@ -1,0 +1,83 @@
+.edit-profile {
+  /* padding-top: 5.5rem; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.edit-profile__form {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-profile__form form {
+  width: 80%;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* text-align: right; */
+}
+
+.edit-profile__form form input {
+  border: 2px solid #ecececc5;
+  border-radius: 100px;
+}
+
+.edit-profile__form form textarea {
+  border: 2px solid #ecececc5;
+  border-radius: 30px;
+  resize: none;
+}
+
+.profile-image-preview--container {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+  border: none;
+  overflow: hidden;
+  /* background-color: aquamarine; */
+}
+
+.profile-image-preview {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: none;
+  object-fit: cover;
+}
+
+.profile-input:focus {
+  outline: none;
+}
+
+.profile-select-photo {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  /* justify-self: center; */
+  align-items: center;
+  /* flex-direction: column; */
+  margin-bottom: 2rem;
+}
+.profile-input-photo {
+  color: rgb(73, 5, 5);
+}
+
+.select-input-container {
+  /* position: relative; */
+  margin-right: auto;
+  position: relative;
+}
+.profile-input-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 999;
+}

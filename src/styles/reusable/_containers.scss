@@ -1,0 +1,24 @@
+/* General Style */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper-full-width {
+  width: 100%;
+}
+
+.full-height-wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  @include desktop {
+    height: 90vh;
+  }
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}

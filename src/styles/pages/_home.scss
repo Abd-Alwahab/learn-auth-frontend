@@ -1,0 +1,113 @@
+.home-wrapper {
+  // width: 90%;
+  // margin: 0 auto;
+
+  @include desktop {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.home-header {
+  height: 100%;
+
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(34, 34, 34, 0.838),
+      rgba(0, 0, 0, 0.542)
+    ),
+    url("./../../media/home/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home-header-content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include desktop {
+    left: 45%;
+  }
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 3px;
+
+  @include tablet {
+    font-size: 3rem;
+  }
+
+  @include desktop {
+    font-size: 5rem;
+  }
+}
+
+.home-description {
+  width: 80%;
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.6;
+
+  @include tablet {
+    font-size: 1.1rem;
+  }
+
+  @include desktop {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+}
+
+.btn-explore {
+  margin-right: 1.2rem;
+  border: 2px solid tomato;
+  color: tomato;
+}
+
+.btn-getstarted {
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: tomato;
+}
+
+.home-buttons {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.btn-home {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 6rem;
+  height: 3rem;
+  font-size: 0.8rem;
+
+  @include tablet {
+    width: 7rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    padding: 0 1.1rem;
+  }
+
+  @include desktop {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    padding: 0 1.1rem;
+  }
+}

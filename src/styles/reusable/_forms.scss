@@ -1,0 +1,177 @@
+.full-form-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1.3rem;
+  box-sizing: border-box;
+}
+
+.large-form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.meduim-form {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-form {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transparent-input {
+  background-color: transparent;
+}
+
+.meduim-input {
+  width: 100%;
+  height: 1.3rem;
+  padding-bottom: 0.4rem;
+  box-sizing: border-box;
+}
+
+.b-height {
+  height: 3rem;
+}
+
+.border {
+  border: 1px solid #cccccc !important;
+}
+
+.border-radius-s {
+  border-radius: 10px;
+}
+
+.border-radius {
+  border-radius: 100px;
+}
+
+.half-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.half-form .input-form {
+  width: 45% !important;
+}
+
+.half-form .input-form .half-input {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.half-input {
+  padding: 0.9rem 0 0.9rem 0.8rem;
+  width: 46%;
+  margin-bottom: 1rem;
+  /* background-color: #1b637563; */
+}
+
+.half-input::placeholder,
+.bio-input::placeholder,
+.quarter-input::placeholder {
+  color: #fff;
+}
+
+.full-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+
+.bio-input {
+  width: 100%;
+  min-height: 20%;
+  margin-bottom: 1.4rem;
+  z-index: 99999;
+  padding: 0.8rem;
+  /* background-color: #1b637563; */
+  box-sizing: border-box;
+}
+
+.form-quarter {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.quarter-input {
+  padding: 0.9rem 0.6rem 0.9rem 0.8rem;
+  max-width: 200px;
+  /* margin-bottom: 1.4rem; */
+  /* background-color: #1b637563; */
+  border: none;
+  margin-right: 1rem;
+  /* display: block; */
+}
+
+.select-input {
+  width: 50%;
+  color: #222 !important;
+}
+
+.select-child__indicators {
+  color: #000 !important;
+  z-index: 9999;
+}
+.select-input > * {
+  /* font-size: 1.5rem; */
+  color: #000 !important;
+}
+
+.btn-edit {
+  background-color: #222;
+  border: none;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  z-index: 99999;
+  border: none;
+  // border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.auth input[type="text"],
+.auth input[type="email"],
+.auth input[type="password"],
+.auth textarea {
+  z-index: 99999;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.book-description .full-input {
+  margin-bottom: 0 !important;
+}
+
+.input-border {
+  border: 1px solid #cccccc !important;
+}
+
+.input-raduis {
+  border-radius: 10px;
+}
+
+.input-raduis-big {
+  border-radius: 40px;
+}

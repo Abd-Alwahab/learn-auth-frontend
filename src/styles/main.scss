@@ -1,0 +1,33 @@
+@import "./utils/mixin";
+@import "./components/nav";
+@import "./components/headerLoggedIn";
+
+// auth
+@import "./pages/login";
+@import "./pages/signup";
+@import "./pages/updatePassword";
+@import "./pages/resetPassword";
+@import "./pages/forgotPassword";
+
+//reset
+@import "./reusable/reset";
+
+// resuable
+@import "./reusable/buttons";
+@import "./reusable/containers";
+@import "./reusable/utils";
+@import "./reusable/forms";
+
+// account
+@import "./pages/previewProfile";
+@import "./pages/update-account";
+
+// book
+
+// home
+@import "./pages/home";
+
+// categories
+
+// footer
+@import "./components/footer";
