@@ -56,8 +56,8 @@ function Navbar() {
               </li>
 
               <li className="list__item  books-item" onClick={closeNav}>
-                <Link to="/books" className=" link list__link">
-                  Books
+                <Link to="/edit-account" className=" link list__link">
+                  Update-Account
                 </Link>
               </li>
 
