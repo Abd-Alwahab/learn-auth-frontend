@@ -56,7 +56,7 @@ function Navbar() {
               </li>
 
               <li className="list__item" onClick={closeNav}>
-                <Link to="/reports/new" className="link list__link">
+                <Link to="/resetpassword" className="link list__link">
                   Contact
                 </Link>
               </li>
