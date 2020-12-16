@@ -49,6 +49,12 @@ function Navbar() {
                 </Link>
               </li>
 
+              <li className="list__item" onClick={closeNav}>
+                <Link to="/developer" className=" link list__link">
+                  Developer
+                </Link>
+              </li>
+
               <li className="list__item  books-item" onClick={closeNav}>
                 <Link to="/books" className=" link list__link">
                   Books

@@ -6,6 +6,7 @@ import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword";
 import PreviewProfile from "./pages/PreviewProfile";
 import ResetPassword from "./pages/ResetPassword";
+import Developer from "./pages/Developer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={PreviewProfile} />
+          <Route path="/developer" component={Developer} />
           <Route path="/forgotpassword" component={ForgotPassword} />
           <Route path="/resetpassword" component={ResetPassword} />
         </Switch>
