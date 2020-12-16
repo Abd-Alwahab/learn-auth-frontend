@@ -44,7 +44,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="list__item" onClick={closeNav}>
-                <Link to="/view-profile" className=" link list__link">
+                <Link to="/profile" className=" link list__link">
                   Account
                 </Link>
               </li>

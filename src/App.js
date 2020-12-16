@@ -4,6 +4,7 @@ import HomeLoggedOut from "./pages/HomeLoggedOut";
 import Navbar from "./components/Navbar";
 import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword";
+import PreviewProfile from "./pages/PreviewProfile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/forgotpassword" component={ForgotPassword} />
+          <Route path="/profile" component={PreviewProfile} />
         </Switch>
       </BrowserRouter>
     </div>
