@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/learn-auth-frontend/static/css/main.b752e531.chunk.css",
+    "main.js": "/learn-auth-frontend/static/js/main.706d8cb3.chunk.js",
+    "main.js.map": "/learn-auth-frontend/static/js/main.706d8cb3.chunk.js.map",
+    "runtime-main.js": "/learn-auth-frontend/static/js/runtime-main.86d72707.js",
+    "runtime-main.js.map": "/learn-auth-frontend/static/js/runtime-main.86d72707.js.map",
+    "static/js/2.6a352955.chunk.js": "/learn-auth-frontend/static/js/2.6a352955.chunk.js",
+    "static/js/2.6a352955.chunk.js.map": "/learn-auth-frontend/static/js/2.6a352955.chunk.js.map",
+    "static/js/3.55a7f3b7.chunk.js": "/learn-auth-frontend/static/js/3.55a7f3b7.chunk.js",
+    "static/js/3.55a7f3b7.chunk.js.map": "/learn-auth-frontend/static/js/3.55a7f3b7.chunk.js.map",
+    "index.html": "/learn-auth-frontend/index.html",
+    "static/css/main.b752e531.chunk.css.map": "/learn-auth-frontend/static/css/main.b752e531.chunk.css.map",
+    "static/js/2.6a352955.chunk.js.LICENSE.txt": "/learn-auth-frontend/static/js/2.6a352955.chunk.js.LICENSE.txt",
+    "static/media/abdalwahab.5506f359.png": "/learn-auth-frontend/static/media/abdalwahab.5506f359.png",
+    "static/media/main.scss": "/learn-auth-frontend/static/media/signupLeft.9bd573b3.jpg",
+    "static/media/profile.43573e2c.svg": "/learn-auth-frontend/static/media/profile.43573e2c.svg",
+    "static/media/update-profile.c7b6a60e.jpg": "/learn-auth-frontend/static/media/update-profile.c7b6a60e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86d72707.js",
+    "static/js/2.6a352955.chunk.js",
+    "static/css/main.b752e531.chunk.css",
+    "static/js/main.706d8cb3.chunk.js"
+  ]
+}
