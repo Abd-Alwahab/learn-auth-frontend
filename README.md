@@ -1,11 +1,16 @@
-# Getting Started with Create React App
+# React Template For Authentication System 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You Can Find The Preview Project on (https://abd-alwahab.github.io/learn-auth-frontend/)
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+-clone the repo using your terminal 
+### `git clone https://github.com/Abd-Alwahab/learn-auth-frontend.git`
 
+-install the needed dependencies that you will need to run the project.
+### `npm i`
+
+-run the project in your web browser to view it :).
 ### `npm start`
 
 Runs the app in the development mode.\
