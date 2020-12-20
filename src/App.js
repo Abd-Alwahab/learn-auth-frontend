@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={HomeLoggedOut} />
+          <Route path="/learn-auth-frontend" exact component={HomeLoggedOut} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={PreviewProfile} />

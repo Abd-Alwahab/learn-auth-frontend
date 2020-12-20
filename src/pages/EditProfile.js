@@ -38,7 +38,7 @@ function EditProfile() {
           <form id="profile-form">
             <div className="profile-select-photo">
               <div className="profile-image-preview--container">
-                <img className="profile-image-preview" src={imagePreview} />
+                <img className="profile-image-preview" src={imagePreview} alt="user" />
               </div>
 
               <div className="select-input-container">
@@ -55,14 +55,29 @@ function EditProfile() {
 
             <div className="full-form-container">
               <div className="meduim-form">
-                <InputForm className="meduim-input p-b" type="text" name="firstName" />
+                <InputForm
+                  className="meduim-input p-b"
+                  type="text"
+                  name="firstName"
+                  placeholder="First Name"
+                />
               </div>
               <div className="meduim-form">
-                <InputForm className="meduim-input p-b" type="text" name="lastName" />
+                <InputForm
+                  className="meduim-input p-b"
+                  type="text"
+                  name="lastName"
+                  placeholder="Last Name"
+                />
               </div>
             </div>
 
-            <InputForm type="email" name="email" className="full-input p-m" />
+            <InputForm
+              type="email"
+              name="email"
+              className="full-input p-m"
+              placeholder="example@user.com"
+            />
 
             <textarea name="bio" className="bio-input" />
 

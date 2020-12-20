@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePlacholder from "./../media/profile/profile.svg";
-import { FaUser, FaUserTie, FaUserShield } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 import { motion } from "framer-motion";
 import FullHeightWrapper from "../components/FullHeightWrapper";
 

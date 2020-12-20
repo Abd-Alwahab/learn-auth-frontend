@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import HeaderLoggedIn from "./HeaderLoggedIn";
 import HeaderLoggedOut from "./HeaderLoggedOut";
 import ToggleNav from "./ToggleNav";
 
@@ -39,7 +38,7 @@ function Navbar() {
               animate={{ opacity: 1 }}
             >
               <li className="list__item" onClick={closeNav}>
-                <Link to="/" className=" link list__link">
+                <Link to="/learn-auth-frontend" className=" link list__link">
                   Home
                 </Link>
               </li>
