@@ -28,7 +28,10 @@ function Navbar() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
             >
-              <h1 className="logo__text">BK</h1>
+              <Link to="/learn-auth-frontend">
+                {" "}
+                <h1 className="logo__text">BK</h1>
+              </Link>
             </motion.div>
 
             <motion.ul
